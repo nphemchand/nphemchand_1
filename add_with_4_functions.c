@@ -1,18 +1,18 @@
 //Write a program to add two user input numbers using 4 functions.
 
 #include<stdio.h>
-Float input()
+float input()
 {
-  Float n;
+  float n;
   printf(“\n enter number:”);
   scanf(“%f”,&n);
   return n;
 }
-  Float sum (float a,float b)
+  float sum (float a,float b)
 {
-   Float sum ;
+   float sum ;
    sum=a+b;
-   Return sum;
+   return sum;
 }
 void output (float n)
 {
@@ -20,10 +20,10 @@ void output (float n)
 }
   Int main()
 {
-  Float x,y,z;
+  float x,y,z;
   x=input();
   y=input();
   z=input(x,y);
   output(z);
-  Return0;
+  return0;
 }
